@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio acadêmico e pessoal de Luiz Eduardo, estudante de tecnologia.">
+  <meta name="theme-color" content="#07111f">
+  <title>Luiz Eduardo | PortfólioHub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header" id="inicio">
+    <nav class="nav container" aria-label="Navegação principal">
+      <a class="brand" href="#inicio" aria-label="PortfólioHub - início">
+        <span class="brand-mark">LE</span>
+        <span>Portfólio<span class="accent">Hub</span></span>
+      </a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="nav-links">
+        <span class="sr-only">Abrir menu</span>
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#competencias">Competências</a>
+        <a class="nav-cta" href="https://github.com/Luizin0" target="_blank" rel="noreferrer">GitHub ↗</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> Disponível para aprender e construir</p>
+        <h1 id="hero-title">Olá, eu sou <span>Luiz Eduardo.</span></h1>
+        <p class="hero-text">Estudante de tecnologia transformando conhecimento acadêmico em projetos bem documentados, funcionais e versionados.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projetos">Conhecer projetos <span aria-hidden="true">↓</span></a>
+          <a class="button secondary" href="https://github.com/Luizin0" target="_blank" rel="noreferrer">Ver perfil no GitHub ↗</a>
+        </div>
+        <dl class="hero-stats" aria-label="Resumo do portfólio">
+          <div><dt>02</dt><dd>áreas de projetos</dd></div>
+          <div><dt>1.0</dt><dd>versão publicada</dd></div>
+          <div><dt>100%</dt><dd>código aberto</dd></div>
+        </dl>
+      </div>
+
+      <div class="hero-visual reveal" aria-hidden="true">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="code-card">
+          <div class="window-bar"><i></i><i></i><i></i><span>portfolio.js</span></div>
+          <pre><code><span class="code-blue">const</span> estudante = {
+  nome: <span class="code-green">"Luiz Eduardo"</span>,
+  foco: [
+    <span class="code-green">"desenvolvimento"</span>,
+    <span class="code-green">"banco de dados"</span>,
+    <span class="code-green">"aprendizado contínuo"</span>
+  ],
+  construir() {
+    <span class="code-blue">return</span> <span class="code-green">"novas soluções"</span>;
+  }
+};</code></pre>
+        </div>
+        <div class="floating-badge badge-git">Git</div>
+        <div class="floating-badge badge-web">&lt;/&gt;</div>
+        <div class="floating-badge badge-db">DB</div>
+      </div>
+    </section>
+
+    <section class="section about" id="sobre" aria-labelledby="sobre-title">
+      <div class="container split-grid">
+        <div class="section-heading reveal">
+          <p class="section-kicker">01 / Sobre</p>
+          <h2 id="sobre-title">Aprendizado que vira <span class="accent">projeto.</span></h2>
+        </div>
+        <div class="about-copy reveal">
+          <p>Este espaço reúne minha evolução acadêmica e projetos pessoais. Cada entrega registra o processo, as decisões e as tecnologias utilizadas.</p>
+          <p>Meu objetivo é desenvolver soluções claras, organizadas e úteis, aplicando boas práticas de documentação e controle de versão.</p>
+          <div class="principles">
+            <span>Organização</span><span>Curiosidade</span><span>Colaboração</span><span>Evolução</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projetos" aria-labelledby="projetos-title">
+      <div class="container">
+        <div class="section-heading heading-row reveal">
+          <div>
+            <p class="section-kicker">02 / Projetos</p>
+            <h2 id="projetos-title">Trabalhos em <span class="accent">destaque.</span></h2>
+          </div>
+          <p class="heading-note">Uma coleção em constante evolução.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card featured reveal">
+            <div class="project-topline"><span>Projeto acadêmico</span><span>01</span></div>
+            <div class="project-icon" aria-hidden="true">⌘</div>
+            <h3>PortfólioHub</h3>
+            <p>Site responsivo publicado com GitHub Pages para apresentar projetos, competências e trajetória acadêmica.</p>
+            <ul class="tag-list" aria-label="Tecnologias">
+              <li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>GitHub Pages</li>
+            </ul>
+            <a href="https://github.com/Luizin0/portfoliohub" target="_blank" rel="noreferrer">Ver repositório <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-topline"><span>Projeto acadêmico</span><span>02</span></div>
+            <div class="project-icon" aria-hidden="true">{ }</div>
+            <h3>Exercícios de SQL</h3>
+            <p>Consultas e operações DML desenvolvidas durante a disciplina de Banco de Dados II.</p>
+            <ul class="tag-list" aria-label="Tecnologias"><li>SQL</li><li>Modelagem</li><li>DML</li></ul>
+            <span class="project-status">Documentação em evolução</span>
+          </article>
+
+          <article class="project-card muted reveal">
+            <div class="project-topline"><span>Projeto pessoal</span><span>03</span></div>
+            <div class="project-icon" aria-hidden="true">＋</div>
+            <h3>Próximo projeto</h3>
+            <p>Este espaço está reservado para a próxima ideia que sair do papel.</p>
+            <ul class="tag-list" aria-label="Status"><li>Em planejamento</li></ul>
+            <span class="project-status">Em breve</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="competencias" aria-labelledby="competencias-title">
+      <div class="container split-grid">
+        <div class="section-heading reveal">
+          <p class="section-kicker">03 / Competências</p>
+          <h2 id="competencias-title">Ferramentas que uso para <span class="accent">criar.</span></h2>
+        </div>
+        <div class="skill-grid reveal">
+          <div><span>01</span><strong>Desenvolvimento Web</strong><small>HTML, CSS e JavaScript</small></div>
+          <div><span>02</span><strong>Banco de Dados</strong><small>SQL e modelagem</small></div>
+          <div><span>03</span><strong>Versionamento</strong><small>Git e GitHub</small></div>
+          <div><span>04</span><strong>Documentação</strong><small>README e Markdown</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="container cta-card reveal">
+        <p class="section-kicker">Vamos construir algo?</p>
+        <h2>Conheça meu código e acompanhe minha evolução.</h2>
+        <a class="button light" href="https://github.com/Luizin0" target="_blank" rel="noreferrer">Acessar GitHub ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Luiz Eduardo.</p>
+      <p>Projetado, desenvolvido e versionado com dedicação.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
