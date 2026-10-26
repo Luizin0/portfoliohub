@@ -1,0 +1,25 @@
+name: Verificacao do PortfolioHUB
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  qualidade:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Conferir JavaScript
+        run: node --check script.js && node --check github-projects.js
+      - name: Testar integracao GitHub
+        run: node --test tests/*.test.js
+      - name: Conferir pagina e documentacao
+        run: python3 tests/check_site.py

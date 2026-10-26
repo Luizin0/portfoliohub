@@ -160,3 +160,25 @@ pre { margin: 0; padding: 34px; overflow: auto; color: #cad7e5; font: 500 clamp(
   .footer-inner { flex-direction: column; justify-content: center; text-align: center; }
   .footer-inner p { margin: 0; }
 }
+
+/* Documentation and public GitHub integration */
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 5px; }
+section[id] { scroll-margin-top: 96px; }
+.resource-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+.resource-card { display: flex; flex-direction: column; min-width: 0; padding: 28px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--panel); }
+.resource-card:hover { border-color: var(--accent); }
+.resource-number { color: var(--accent); font-size: .8rem; margin-bottom: 28px; }
+.resource-card h3 { font-size: 1.45rem; }
+.resource-card p { color: var(--muted); }
+.resource-action { color: var(--accent); margin-top: auto; font-size: .9rem; font-weight: 700; }
+.repository-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+.repository-card { min-width: 0; padding: 24px; border: 1px solid var(--line); border-radius: 18px; background: var(--panel); }
+.repository-card h3 { font-size: 1.2rem; overflow-wrap: anywhere; }
+.repository-card p { color: var(--muted); overflow-wrap: anywhere; }
+.repository-card small { color: var(--accent); }
+.repository-status, .repository-fallback { color: var(--muted); }
+.repository-fallback a { color: var(--accent); text-decoration: underline; }
+#refresh-repositories { color: var(--text); background: transparent; cursor: pointer; }
+#refresh-repositories:disabled { opacity: .6; cursor: wait; }
+@media (max-width: 900px) { .nav-links { gap: 16px; } .repository-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 640px) { .resource-grid, .repository-grid { grid-template-columns: 1fr; } .hero-visual { overflow: hidden; } .github-projects .heading-row .button { margin-top: 20px; } }
