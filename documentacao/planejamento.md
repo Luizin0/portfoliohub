@@ -9,7 +9,7 @@ Centralizar projetos acadêmicos e pessoais em um portfólio público, demonstra
 1. **Página principal:** apresentação profissional e visão geral dos projetos;
 2. **Projetos acadêmicos:** trabalhos de disciplinas, cursos e Bootcamp;
 3. **Projetos pessoais:** soluções autorais e experimentos;
-4. **Documentação:** planejamento, integração profissional e roteiro de apresentação.
+4. **Documentação:** planejamento, integração profissional e guias de colaboração.
 
 ## Estratégia de versionamento
 

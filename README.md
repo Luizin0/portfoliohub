@@ -22,8 +22,7 @@ portfoliohub/
 │       └── README.md
 ├── documentacao/
 │   ├── planejamento.md
-│   ├── integracao-linkedin.md
-│   └── roteiro-apresentacao.md
+│   └── integracao-linkedin.md
 ├── CHANGELOG.md
 ├── LICENSE
 └── README.md
@@ -69,7 +68,6 @@ A versão inicial está documentada como **v1.0.0** e a entrega final acrescenta
 - [Projetos pessoais](projetos/pessoais/README.md)
 - [Planejamento do repositório](documentacao/planejamento.md)
 - [Integração com o LinkedIn](documentacao/integracao-linkedin.md)
-- [Roteiro da apresentação](documentacao/roteiro-apresentacao.md)
 
 ## Autor
 
