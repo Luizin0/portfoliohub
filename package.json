@@ -1,0 +1,11 @@
+{
+  "name": "portfoliohub-luiz-eduardo",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "check": "node --check script.js && node --check github-projects.js && node --test tests/*.test.js && python3 tests/check_site.py"
+  },
+  "engines": { "node": ">=22" }
+}
