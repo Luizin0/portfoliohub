@@ -20,7 +20,7 @@ A área Documentação reúne plano no Google Documentos, política, contribuiç
 
 ## Usuários e segurança
 
-O visitante lê o conteúdo; alterações dependem das permissões do GitHub. Documentos públicos usam o papel leitor. A política de segurança, a lista de arquivos ignorados e o guia de contribuição foram adicionados ao repositório. A conta GitHub foi consultada e a autenticação em dois fatores está desativada. A regra para a branch main foi preparada com exigência de pull request, resolução de conversas, bloqueio de force push e exclusão; o salvamento exigiu confirmação de identidade do titular por e-mail. A regra ainda não está confirmada como ativa. O titular deve concluir a confirmação e ativar os dois fatores na própria conta, sem compartilhar códigos.
+O visitante lê o conteúdo; alterações dependem das permissões do GitHub. Documentos públicos usam o papel leitor. A política de segurança, a lista de arquivos ignorados e o guia de contribuição foram adicionados ao repositório. A branch main está protegida: alterações exigem pull request, resolução de conversas e verificação automatizada qualidade. Force push e exclusão estão bloqueados, inclusive para administradores. A confirmação de identidade do titular foi concluída antes da ativação. A autenticação em dois fatores ainda deve ser ativada pelo titular na própria conta, sem compartilhar códigos.
 
 ## Colaboração e testes
 
