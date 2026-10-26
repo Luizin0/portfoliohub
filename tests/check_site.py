@@ -23,7 +23,7 @@ for a in page.anchors:
     if href.startswith('#'): assert href[1:] in page.ids, href
     if a.get('target')=='_blank': assert {'noopener','noreferrer'} <= set(a.get('rel','').split()), href
 for resource in page.resources:
-    if not urlparse(resource).scheme: assert (ROOT/resource).is_file(), resource
+    if not urlparse(resource).scheme: assert (ROOT/urlparse(resource).path).is_file(), resource
 for required in ['README.md','LICENSE','CONTRIBUTING.md','SECURITY.md','documentacao/entrega-final.md']:
     assert (ROOT/required).is_file(), required
 print('HTML, âncoras, recursos, links externos e documentação verificados.')
